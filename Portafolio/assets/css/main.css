@@ -1,0 +1,52 @@
+body{
+    background-color:#ede6db;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+background-color:#ede6db;
+text-decoration: none;
+color: #8fbdd3;
+}
+header{
+    display: flex;
+    background-color:#ede6db;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: deeppink;
+}
+
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+
+    }
+    .form-container{
+        background-color: violet;
+        width: 80%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .container 
+}
