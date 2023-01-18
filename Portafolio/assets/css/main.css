@@ -5,13 +5,13 @@ body{
 }
 
 a{
-background-color:#ede6db;
+background-color:rgb(209, 156, 209);
 text-decoration: none;
 color: #8fbdd3;
 }
 header{
     display: flex;
-    background-color:#ede6db;
+    background-color:rgb(209, 156, 209);
     min-height: 70px;
     justify-content: space-between;
     align-items: center;
