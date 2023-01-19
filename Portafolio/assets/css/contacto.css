@@ -16,10 +16,17 @@ h2{
 }
 
 body {
-    background-color: #ede6db;
+    background:url(assets\img\fondo rosa.jpg);
     
 }
-
+header{
+    display: flex;
+    background-color:rgb(209, 156, 209);
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 .contenedor .form .form-header .form-title {
     font-weight: normal;
     font-family: sans-serif;
