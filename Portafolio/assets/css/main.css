@@ -33,6 +33,14 @@ nav a{
 nav a:hover{
     color: deeppink;
 }
+  /* Step 1: Common Properties
+  These styles are required to make icons render reliably */
+  .icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
 
 @media (max-width: 680px){
     header{
