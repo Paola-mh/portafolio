@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/registro.css">
+    <script src="https://kit.fontawesome.com/b62cc92a52.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/img/logot.png" type="image/x-icon">
+    <title>Registro</title>
+</head>
+
+<body class="bg-light">
+
+      <header class="p-3 text-bg-">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"><img src="assets/img/logot.png" alt="logo" width="100"  
+                class="logo">
+               <h2 class="nombre-empresa text-black">Supercompara</h2>
+               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+              </a>  
+                 
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="contacto.html" class="nav-link px-2 text-black">Contacto</a></li>
+              
+            </ul>
+            <img src="assets\img\find-icon.png" alt="" width="30" height="30">
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-white" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-primary"><a href="perfil.html" class="nav-link px-2 text-blac">
+                <i class="fa-regular fa-user"></i></a></button>
+                <button type="button" class="btn btn-outline-primary"><a href="" class="nav-link px-2 text-blac">
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i></a></button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+        <div class="container">
+          <main>
+            <div class="py-5 text-center">
+              <img class="d-block mx-auto mb-4" src="assets/img/logot.png" alt="" width="72" height="57">
+              <h2>Crea Tu cuenta</h2>
+              <p class="lead"></p>
+            </div>
+
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <label for="lastName" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="email" class="form-label">Email <span class="text-muted"></span></label>
+                      <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                      <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="address" class="form-label">Direccion</label>
+                      <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                      <div class="invalid-feedback">
+                        Please enter your shipping address.
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="address2" class="form-label">Direccion 2<span class="text-muted">(Optional)</span></label>
+                      <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                    </div>
+
+                    <div class="col-md-5">
+                      <label for="country" class="form-label">Pais</label>
+                      <select class="form-select" id="country" required="">
+                        <option value="">Seleccione Pais</option>
+                        <option>Chile</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid country.
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <label for="state" class="form-label">Ciudad</label>
+                      <select class="form-select" id="state" required="">
+                        <option value="">Seleccionar Region</option>
+                        <option>Antofagasta</option>
+                        <option>Arica y Parinacota</option>
+                        <option>Atacama</option>
+                        <option>Bio Bio</option>
+                        <option>Coquimbo</option>
+                        <option>La Araucania</option>
+                        <option>Libertador General Bernardo O´higgins</option>
+                        <option>Los Lagos</option>
+                        <option>Los Rios</option>
+                        <option>Maule</option>
+                        <option>Metropolitana de Santiago</option>
+                        <option>Nuble</option>
+                        <option>Tarapaca</option>
+                        <option>Valparaiso</option>
+                    
+                    </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <label for="ciudad" class="form-label">Telefono</label>
+                      <input type="text" class="form-control" id="ciudad" placeholder="" required="">
+                      <div class="invalid-feedback">
+                        number phone required
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr class="my-4">
+
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="same-address">
+                    <label class="form-check-label" for="same-address">La dirección de envío es la misma que mi dirección de facturación</label>
+                  </div>
+
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Guarda esta información para la próxima vez</label>
+                  </div>
+                  <hr class="my-4">
+                 <input type="button" id="mensaje" class="btn-submit" value="Registrarme" onclick="enviRegistro();">
+                </button>
+
+                </form>
+              </div>
+            </div>
+        </div>
+        </div>
+          </main>
+
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+               <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Ir al comienzo</a></li>
+              <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contactenos aqui</a></li>
+            </ul>
+            <p class="text-center text-muted">©Supercompara 2023</p>
+          </footer>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="assets\js\main.js"></script>
+      </body>
+
+</html>
